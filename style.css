@@ -129,7 +129,7 @@ section {
     min-height: 100%;
     display: flex;
     align-items: center;
-    background: url(image/tawfik.jpeg) no-repeat;
+    background: url(image/tifa.jpeg) no-repeat;
     background-size: contain;
     background-position: center;
     background-attachment: fixed;
@@ -156,6 +156,11 @@ section {
     margin-bottom: 30px;
 }
 
+@media (max-width:767px) {
+    .main h3 {
+        font-size: 1.5em;
+    }
+}
 
 .main .relo {
     margin-left: 2px;
@@ -221,7 +226,7 @@ section {
 }
 
 .main-btn {
-    background-color: rgb(43, 31, 124);
+    background-color: var(--main-color);
     color: white;
     font-size: 1.1em;
     font-weight: 600;
@@ -231,6 +236,13 @@ section {
     text-decoration: none;
     display: inline-block;
     transition: 0.7s ease;
+}
+
+@media (max-width:767px) {
+    .main-btn {
+        margin-bottom: 20px;
+        padding: 0.4375em 1.1875em;
+    }
 }
 
 .main-btn:hover {
@@ -302,7 +314,7 @@ section {
     margin: 15px;
     transition: 0.7s;
     border-radius: 47px;
-        color: white;
+    color: white;
     background-color: var(--lolo-color);
 }
 
@@ -411,9 +423,11 @@ section {
 .cares-contnt .info {
     margin-bottom: 10px;
 }
-.cares-contnt{
+
+.cares-contnt {
     background-color: var(--lo-color);
 }
+
 .footer {
     display: flex;
     justify-content: space-between;
