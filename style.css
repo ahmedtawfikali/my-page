@@ -138,7 +138,9 @@ section {
 
 @media (max-width:767px) {
     .main {
-        background-attachment: inherit;
+      background-position: 38px ;
+      background-attachment: inherit;
+      margin-bottom: -114px;
     }
 }
 
