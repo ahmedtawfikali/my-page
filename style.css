@@ -137,6 +137,12 @@ section {
 }
 
 @media (max-width:767px) {
+    .main {
+        background-attachment: inherit;
+    }
+}
+
+@media (max-width:767px) {
     section {
         padding: 129px 28px;
     }
