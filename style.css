@@ -168,7 +168,9 @@ section {
 
 @media (max-width:767px) {
     .main {
-        background-attachment: inherit;
+      background-position: 38px ;
+      background-attachment: inherit;
+      margin-bottom: -114px;
     }
 }
 
@@ -257,7 +259,10 @@ section {
 
 @media (max-width:767px) {
     .main .relo {
-        display: none;
+    animation-iteration-count: initial;
+    margin: 10px;
+    margin-left: -9px;
+    background-color: #000047;
     }
 }
 
